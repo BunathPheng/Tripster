@@ -3,8 +3,8 @@
     "@tailwindcss/cli": "^4.0.6"
   },
   "scripts": {
-  "watch": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch"
-},
+    "watch": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch"
+  },
   "name": "mini-project",
   "version": "1.0.0",
   "main": "index.js",
