@@ -3,4 +3,8 @@
 
 *{
     font-family: "Poppins", "Kantumruy Pro", serif;
+
+}
+@theme{
+    --color-blue-600 : #155dfc;
 }
