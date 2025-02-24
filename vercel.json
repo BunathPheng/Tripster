@@ -1,0 +1,10 @@
+{
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/src/html/homepage.html"
+      }
+    ]
+  }
+  
+  
