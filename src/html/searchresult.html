@@ -68,234 +68,233 @@
         </div>
     </nav>
     <!--   section1 -->
-
-    <main class="container mx-auto">
-        <!-- setion1 -->
-        <div class="flex">
-            <div class="  bg-clip-border w-3xl   border-e-2
-             border-gray-100">
-                <div class="flex-col gap-6 flex bg-[#f8f8f8] px-20 py-10">
-                    <div>
-                        <a href="./homepage.html">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                class="size-6">
-                                <path fill-rule="evenodd"
-                                    d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"
-                                    clip-rule="evenodd" />
+    <main class="container mx-auto  flex flex-col md:flex-row justify-between">
+        <!-- section1 -->
+        <div class="flex flex-col sm:flex-row gap-8">
+            <div class="">
+            <div class="flex-col gap-6 flex bg-[#f8f8f8] px-20 py-10">
+                <div>
+                    <a href="./homepage.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                            class="size-6">
+                            <path fill-rule="evenodd"
+                                d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <h1 class="text-md antialiased  font-bold leading-snug tracking-normal text-black mt-4">
+                        You search
+                    </h1>
+                </div>
+                <div>
+                    <label for="username" class="block text-sm text-black dark:text-gray-300">Destination</label>
+                    <div class="relative">
+                        <div class="absolute top-3 ml-4">
+                            <svg viewBox="0 0 384 512"
+                                style="width: 16px; height: 16px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
+                                <path
+                                    d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                </path>
                             </svg>
-                        </a>
-                        <h1 class="text-md antialiased  font-bold leading-snug tracking-normal text-black mt-4">
-                            You search
-                        </h1>
-                    </div>
-                    <div>
-                        <label for="username" class="block text-sm text-black dark:text-gray-300">Destination</label>
-                        <div class="relative">
-                            <div class="absolute top-3 ml-4">
-                                <svg viewBox="0 0 384 512"
-                                    style="width: 16px; height: 16px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
-                                    <path
-                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <input type="text" placeholder="Copenhagen,Denmark"
-                                class="block text-[14px]  mt-2 w-full placeholder-black dark:placeholder-gray-500 rounded-full bg-white px-10 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
                         </div>
+                        <input type="text" placeholder="Copenhagen,Denmark"
+                            class="block text-[14px]  mt-2 w-full placeholder-black dark:placeholder-gray-500 rounded-full bg-white px-10 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
                     </div>
-                    <div>
-                        <label for="username" class="block text-sm text-black dark:text-gray-300">Check-in Date</label>
-                        <div class="relative">
-                            <div class="absolute top-3 ml-4">
-                                <svg viewBox="0 0 448 512"
-                                    style="width: 16px; height: 16px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
-                                    <path
-                                        d="M436 160H12c-6.627 0-12-5.373-12-12v-36c0-26.51 21.49-48 48-48h48V12c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v52h128V12c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v52h48c26.51 0 48 21.49 48 48v36c0 6.627-5.373 12-12 12zM12 192h424c6.627 0 12 5.373 12 12v260c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V204c0-6.627 5.373-12 12-12zm333.296 95.947l-28.169-28.398c-4.667-4.705-12.265-4.736-16.97-.068L194.12 364.665l-45.98-46.352c-4.667-4.705-12.266-4.736-16.971-.068l-28.397 28.17c-4.705 4.667-4.736 12.265-.068 16.97l82.601 83.269c4.667 4.705 12.265 4.736 16.97.068l142.953-141.805c4.705-4.667 4.736-12.265.068-16.97z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <input datepicker id="default-datepicker" type="text" placeholder="Friday, 09 December 2022"
-                                class="block text-[14px]  mt-2 w-full placeholder-black dark:placeholder-gray-500 rounded-full bg-white px-10 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
+                </div>
+                <div>
+                    <label for="username" class="block text-sm text-black dark:text-gray-300">Check-in Date</label>
+                    <div class="relative">
+                        <div class="absolute top-3 ml-4">
+                            <svg viewBox="0 0 448 512"
+                                style="width: 16px; height: 16px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
+                                <path
+                                    d="M436 160H12c-6.627 0-12-5.373-12-12v-36c0-26.51 21.49-48 48-48h48V12c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v52h128V12c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v52h48c26.51 0 48 21.49 48 48v36c0 6.627-5.373 12-12 12zM12 192h424c6.627 0 12 5.373 12 12v260c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V204c0-6.627 5.373-12 12-12zm333.296 95.947l-28.169-28.398c-4.667-4.705-12.265-4.736-16.97-.068L194.12 364.665l-45.98-46.352c-4.667-4.705-12.266-4.736-16.971-.068l-28.397 28.17c-4.705 4.667-4.736 12.265-.068 16.97l82.601 83.269c4.667 4.705 12.265 4.736 16.97.068l142.953-141.805c4.705-4.667 4.736-12.265.068-16.97z">
+                                </path>
+                            </svg>
                         </div>
+                        <input datepicker id="default-datepicker" type="text" placeholder="Friday, 09 December 2022"
+                            class="block text-[14px]  mt-2 w-full placeholder-black dark:placeholder-gray-500 rounded-full bg-white px-10 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
                     </div>
-                    <div>
-                        <label for="username" class="block text-sm text-black dark:text-gray-300">Check-out Date</label>
-                        <div class="relative">
-                            <div class="absolute top-3 ml-4">
-                                <svg viewBox="0 0 448 512"
-                                    style="width: 16px; height: 16px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
-                                    <path
-                                        d="M436 160H12c-6.6 0-12-5.4-12-12v-36c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48v36c0 6.6-5.4 12-12 12zM12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm257.3 160l48.1-48.1c4.7-4.7 4.7-12.3 0-17l-28.3-28.3c-4.7-4.7-12.3-4.7-17 0L224 306.7l-48.1-48.1c-4.7-4.7-12.3-4.7-17 0l-28.3 28.3c-4.7 4.7-4.7 12.3 0 17l48.1 48.1-48.1 48.1c-4.7 4.7-4.7 12.3 0 17l28.3 28.3c4.7 4.7 12.3 4.7 17 0l48.1-48.1 48.1 48.1c4.7 4.7 12.3 4.7 17 0l28.3-28.3c4.7-4.7 4.7-12.3 0-17L269.3 352z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <input datepicker id="default-datepicker" type="text" placeholder="Monday, 12 December 2022"
-                                class="block text-[14px]  mt-2 w-full placeholder-black dark:placeholder-gray-500 rounded-full bg-white px-10 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
+                </div>
+                <div>
+                    <label for="username" class="block text-sm text-black dark:text-gray-300">Check-out Date</label>
+                    <div class="relative">
+                        <div class="absolute top-3 ml-4">
+                            <svg viewBox="0 0 448 512"
+                                style="width: 16px; height: 16px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
+                                <path
+                                    d="M436 160H12c-6.6 0-12-5.4-12-12v-36c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48v36c0 6.6-5.4 12-12 12zM12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm257.3 160l48.1-48.1c4.7-4.7 4.7-12.3 0-17l-28.3-28.3c-4.7-4.7-12.3-4.7-17 0L224 306.7l-48.1-48.1c-4.7-4.7-12.3-4.7-17 0l-28.3 28.3c-4.7 4.7-4.7 12.3 0 17l48.1 48.1-48.1 48.1c-4.7 4.7-4.7 12.3 0 17l28.3 28.3c4.7 4.7 12.3 4.7 17 0l48.1-48.1 48.1 48.1c4.7 4.7 12.3 4.7 17 0l28.3-28.3c4.7-4.7 4.7-12.3 0-17L269.3 352z">
+                                </path>
+                            </svg>
                         </div>
+                        <input datepicker id="default-datepicker" type="text" placeholder="Monday, 12 December 2022"
+                            class="block text-[14px]  mt-2 w-full placeholder-black dark:placeholder-gray-500 rounded-full bg-white px-10 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
                     </div>
-                    <div>
-                        <label for="username" class="block text-sm text-black dark:text-gray-300">Guests</label>
-                        <div class="relative">
-                            <div class="absolute top-3 ml-4">
-                                <svg viewBox="0 0 448 512"
-                                    style="width: 16px; height: 16px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
-                                    <path
-                                        d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z">
-                                    </path>
-                                </svg>
-                            </div>
+                </div>
+                <div>
+                    <label for="username" class="block text-sm text-black dark:text-gray-300">Guests</label>
+                    <div class="relative">
+                        <div class="absolute top-3 ml-4">
+                            <svg viewBox="0 0 448 512"
+                                style="width: 16px; height: 16px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
+                                <path
+                                    d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z">
+                                </path>
+                            </svg>
+                        </div>
 
-                            <input type="text" placeholder="2 adults , 1 room"
-                                class="block text-[14px]  mt-2 w-full placeholder-black dark:placeholder-gray-500 rounded-full bg-white px-10 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
-                        </div>
-                    </div>
-                    <button type="button"
-                        class="text-white bg-blue-700 hover:bg-blue-800 w-full focus:outline-none focus:ring-4 focus:ring-blue-300 font-bold rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
-                </div>
-                <!-- morecontainputbox -->
-                <div class="flex-col gap-6 flex px-19 py-10">
-                    <div class="flex flex-col gap-6">
-                        <h1 class="text-lg font-semibold">Popular filters</h1>
-                        <div class="flex items-center">
-                            <input id="default-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="default-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Budget hotel</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input checked id="checked-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="checked-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Breakfast
-                                included</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input id="default-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="default-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Free airport
-                                shuttle</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input checked id="checked-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="checked-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Hotel/Backpacker</label>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-6">
-                        <h1 class="text-lg font-semibold">Price per night</h1>
-                        <div class="flex items-center">
-                            <input id="default-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="default-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Less than $50</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input checked id="checked-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="checked-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">$50 to $100</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input id="default-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="default-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">$100 to $150
-                            </label>
-                        </div>
-                        <div class="flex items-center">
-                            <input checked id="checked-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="checked-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">$150 and more</label>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-6">
-                        <h1 class="text-lg font-semibold">Guest rating</h1>
-                        <div class="flex items-center">
-                            <input id="default-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="default-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Any</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input checked id="checked-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="checked-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Excellent</label>
-                        </div>
-                        <div class="flex items-center">
-                            <input id="default-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="default-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Very good
-                            </label>
-                        </div>
-                        <div class="flex items-center">
-                            <input checked id="checked-checkbox" type="checkbox" value=""
-                                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                            <label for="checked-checkbox"
-                                class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Good</label>
-                        </div>
-                    </div>
-                    <div class="flex flex-col gap-6">
-                        <h1 class="text-lg font-semibold">Property class</h1>
-                        <div class="flex items-center gap-2">
-                            <button class="py-1 px-3  flex items-center gap-2  rounded-3xl border-1  border-gray-400"
-                                50>
-                                <p>1</p>
-                                <svg viewBox="0 0 576 512"
-                                    style="width: 12px; height: 12px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
-                                    <path
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-                            </button>
-                            <button class="py-1 px-3  flex items-center gap-2  rounded-3xl border-1  border-gray-400"
-                                50>
-                                <p>2</p>
-                                <svg viewBox="0 0 576 512"
-                                    style="width: 12px; height: 12px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
-                                    <path
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-                            </button>
-                            <button class="py-1 px-3  flex items-center gap-2  rounded-3xl border-1  border-gray-400"
-                                50>
-                                <p>3</p>
-                                <svg viewBox="0 0 576 512"
-                                    style="width: 12px; height: 12px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
-                                    <path
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-                            </button>
-                            <button class="py-1 px-3  flex items-center gap-2  rounded-3xl border-1  border-gray-400"
-                                50>
-                                <p>4</p>
-                                <svg viewBox="0 0 576 512"
-                                    style="width: 12px; height: 12px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
-                                    <path
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-                            </button>
-                            <button class="py-1 px-3  flex items-center gap-2  rounded-3xl border-1  border-gray-400"
-                                50>
-                                <p>5</p>
-                                <svg viewBox="0 0 576 512"
-                                    style="width: 12px; height: 12px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
-                                    <path
-                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                    </path>
-                                </svg>
-                            </button>
-                        </div>
+                        <input type="text" placeholder="2 adults , 1 room"
+                            class="block text-[14px]  mt-2 w-full placeholder-black dark:placeholder-gray-500 rounded-full bg-white px-10 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
                     </div>
                 </div>
+                <button type="button"
+                    class="text-white bg-blue-700 hover:bg-blue-800 w-full focus:outline-none focus:ring-4 focus:ring-blue-300 font-bold rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
             </div>
+            <!-- morecontainputbox -->
+            <div class="flex-col gap-6 flex px-19 py-10">
+                <div class="flex flex-col gap-6">
+                    <h1 class="text-lg font-semibold">Popular filters</h1>
+                    <div class="flex items-center">
+                        <input id="default-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="default-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Budget hotel</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input checked id="checked-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checked-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Breakfast
+                            included</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input id="default-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="default-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Free airport
+                            shuttle</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input checked id="checked-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checked-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Hotel/Backpacker</label>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <h1 class="text-lg font-semibold">Price per night</h1>
+                    <div class="flex items-center">
+                        <input id="default-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="default-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Less than $50</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input checked id="checked-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checked-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">$50 to $100</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input id="default-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="default-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">$100 to $150
+                        </label>
+                    </div>
+                    <div class="flex items-center">
+                        <input checked id="checked-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checked-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">$150 and more</label>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <h1 class="text-lg font-semibold">Guest rating</h1>
+                    <div class="flex items-center">
+                        <input id="default-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="default-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Any</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input checked id="checked-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checked-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Excellent</label>
+                    </div>
+                    <div class="flex items-center">
+                        <input id="default-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="default-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Very good
+                        </label>
+                    </div>
+                    <div class="flex items-center">
+                        <input checked id="checked-checkbox" type="checkbox" value=""
+                            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                        <label for="checked-checkbox"
+                            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Good</label>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <h1 class="text-lg font-semibold">Property class</h1>
+                    <div class="flex items-center gap-2">
+                        <button class="py-1 px-3  flex items-center gap-2  rounded-3xl border-1  border-gray-400"
+                            50>
+                            <p>1</p>
+                            <svg viewBox="0 0 576 512"
+                                style="width: 12px; height: 12px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
+                                <path
+                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                </path>
+                            </svg>
+                        </button>
+                        <button class="py-1 px-3  flex items-center gap-2  rounded-3xl border-1  border-gray-400"
+                            50>
+                            <p>2</p>
+                            <svg viewBox="0 0 576 512"
+                                style="width: 12px; height: 12px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
+                                <path
+                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                </path>
+                            </svg>
+                        </button>
+                        <button class="py-1 px-3  flex items-center gap-2  rounded-3xl border-1  border-gray-400"
+                            50>
+                            <p>3</p>
+                            <svg viewBox="0 0 576 512"
+                                style="width: 12px; height: 12px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
+                                <path
+                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                </path>
+                            </svg>
+                        </button>
+                        <button class="py-1 px-3  flex items-center gap-2  rounded-3xl border-1  border-gray-400"
+                            50>
+                            <p>4</p>
+                            <svg viewBox="0 0 576 512"
+                                style="width: 12px; height: 12px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
+                                <path
+                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                </path>
+                            </svg>
+                        </button>
+                        <button class="py-1 px-3  flex items-center gap-2  rounded-3xl border-1  border-gray-400"
+                            50>
+                            <p>5</p>
+                            <svg viewBox="0 0 576 512"
+                                style="width: 12px; height: 12px; overflow: visible; opacity: 1; z-index: 1; fill: rgb(133, 133, 133);">
+                                <path
+                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+            <!-- maincontainer -->
             <div class="pr-20 pl-10 mt-10 w-full">
                 <h1>140 search results for</h1>
                 <div class="flex justify-between items-center">
@@ -316,8 +315,8 @@
                     <!-- card1 -->
                         <div
                             class="shadow-[0px_8px_24px_rgba(149,157,165,0.2)]  w-full p-4 rounded-2xl flex justify-between">
-                            <div class="flex gap-5">
-                                <img class=" w-52 h-54 object-cover rounded-2xl" src="../image/card1.jpg" />
+                            <div class="flex md:flex-col lg:flex-row gap-5">
+                                <img class=" w-52 h-full object-cover rounded-2xl" src="../image/card1.jpg" />
                                 <div class="flex flex-col gap-4">
                                     <div class="flex justify-between items-center">
                                         <div>
@@ -334,9 +333,9 @@
                                         <p>1x king size bed</p>
                                         <p>1x bathroom</p>
                                     </div>
-                                    <div class="flex gap-2">
+                                    <div class="flex gap-2 items-center">
                                         <button
-                                            class=" inline-block h-fit rounded-full border border-blue-600 px-5 py-2 text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white focus:ring-3 focus:outline-hidden">
+                                            class="inline-block h-fit rounded-full border border-blue-600 px-5 py-2 text-sm font-medium text-blue-600 hover:bg-blue-600 hover:text-white focus:ring-3 focus:outline-hidden">
                                             #Hot deal
                                         </button>
                                         <button
@@ -560,8 +559,11 @@
                     </a>
                 </div>
             </div>
+
+            
         </div>
     </main>
+    
 
     <footer class="bg-gray-100 py-6 text-gray-800">
         <div class="max-w-full md:px-20 px-3 mx-auto flex flex-col sm:flex-row justify-between items-start sm:items-center">
